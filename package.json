@@ -1,0 +1,29 @@
+{
+  "name": "react_ql_apollo_express",
+  "version": "1.0.0",
+  "description": "Test application for gql and apollo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodlif/react_ql_apollo_express.git"
+  },
+  "author": "Jon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodlif/react_ql_apollo_express/issues"
+  },
+  "homepage": "https://github.com/goodlif/react_ql_apollo_express#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
